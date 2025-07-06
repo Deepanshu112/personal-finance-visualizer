@@ -1,0 +1,30 @@
+[
+  {
+    "category": "Food",
+    "amount": 400
+  },
+  {
+    "category": "Travel",
+    "amount": 200
+  },
+  {
+    "category": "Bills",
+    "amount": 2000
+  },
+  {
+    "category": "Shopping",
+    "amount": 200
+  },
+  {
+    "category": "Health",
+    "amount": 200
+  },
+  {
+    "category": "Rent",
+    "amount": 1000
+  },
+  {
+    "category": "Other",
+    "amount": 2000
+  }
+]

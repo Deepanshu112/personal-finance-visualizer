@@ -1,0 +1,44 @@
+[
+  {
+    "amount": 10,
+    "description": "paneer",
+    "date": "2025-07-06T09:13:01.215Z",
+    "id": "1751793224693",
+    "category": "Food"
+  },
+  {
+    "id": "2",
+    "amount": 2000,
+    "description": "Rent",
+    "date": "2025-10-01T00:00:00.000Z",
+    "category": "Bills"
+  },
+  {
+    "amount": 100,
+    "description": "ghee",
+    "date": "2025-07-03T18:30:00.000Z",
+    "category": "Bills",
+    "id": "1751795769606"
+  },
+  {
+    "amount": 50,
+    "description": "Bus+train",
+    "date": "2025-07-06T10:04:53.234Z",
+    "category": "Travel",
+    "id": "1751796331483"
+  },
+  {
+    "amount": 800,
+    "description": "shirt",
+    "date": "2025-07-06T10:04:53.234Z",
+    "category": "Shopping",
+    "id": "1751796353696"
+  },
+  {
+    "amount": 500,
+    "description": "jeans",
+    "date": "2025-06-29T18:30:00.000Z",
+    "category": "Shopping",
+    "id": "1751799813573"
+  }
+]

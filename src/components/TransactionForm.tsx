@@ -75,6 +75,7 @@ export function TransactionForm({ initialData, onSuccess }: TransactionFormProps
                 });
             } else {
                 await addTransaction({
+                    id: Date.now().toString(),
                     amount: values.amount,
                     description: values.description,
                     date: values.date.toISOString(),

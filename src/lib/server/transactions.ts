@@ -30,11 +30,10 @@ export async function getTransactions(): Promise<Transaction[]> {
   return await readTransactions();
 }
 
-export async function addTransaction(transaction: Omit<Transaction, 'id'>) {
-  const transactions = await readTransactions();
-  const newTransaction = { ...transaction, id: Date.now().toString() };
-  await writeTransactions([...transactions, newTransaction]);
-  return newTransaction;
+export async function addTransaction(transaction: Transaction) {
+  const existing = JSON.parse(localStorage.getItem('transactions') || '[]');
+  const updated = [...existing, transaction];
+  localStorage.setItem('transactions', JSON.stringify(updated));
 }
 
 export async function deleteTransaction(id: string) {

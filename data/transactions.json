@@ -40,5 +40,12 @@
     "date": "2025-06-29T18:30:00.000Z",
     "category": "Shopping",
     "id": "1751799813573"
+  },
+  {
+    "amount": 100,
+    "description": "meri mrji",
+    "date": "2025-07-06T11:56:38.605Z",
+    "category": "Bills",
+    "id": "1751803015155"
   }
 ]
